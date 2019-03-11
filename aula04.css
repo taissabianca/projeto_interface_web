@@ -1,0 +1,36 @@
+html, body, .menu, .cabecalho, .conteudo, .rodape{
+
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* tudo sera selecionado com o *;   */
+  padding:0px;
+  margin: 0px;
+   
+}
+
+body{
+  background-color: #FFA07A;
+}
+/* quer indentificar a classe ponto na frente */
+/* * quer indentificar o id # na frentes */
+.menu{
+  background-color:  #DCDCDC;
+  color: #000000;
+    font-size: 20px;
+}
+#rodapePrincipal{
+  color: #696969;  /*cor da fonte */
+  text-align: center;
+}
+.rodape{
+  background-color: #DCDCDC;
+ text-align: center;  /*alinhamento */
+}
+.conteudo{
+  border-style: solid;
+  border-width: 1px; /*largura da borda*/
+  border-color:  #DCDCDC  /*cor da borda*/
+
+  /* "margem interna" pode ser alterada utilizando o */
+
+}
