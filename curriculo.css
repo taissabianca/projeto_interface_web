@@ -1,0 +1,25 @@
+*{
+
+}
+
+#curriculo {
+
+    background-color: #F7B4B4;
+    width: 800px;
+    margin: 0px auto;
+
+}
+.nome{
+  float: left;
+
+}
+.dados-pessoais{
+  float: right;
+}
+
+.limpar{
+  clear: both;
+}
+.titulo{
+  background-color: #D50A0A;
+}
