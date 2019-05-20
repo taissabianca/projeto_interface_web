@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!-- importação do css bootstrap -->
+  <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+
+  <!-- importação dp jQuery -->
+  <script src= "jquery-3.4.1.js"></script>
+  <!--  utilização do JavaScript-->
+  <script>
+  $(document).ready( function(){
+    $(".primeiro").hide();
+    $(".segundo").hide();
+    $(".terceiro").hide();
+  });
+
+    $(document).ready( function(){
+      $("#btnDadosP").click(function(){
+        $(".primeiro").show('', function(){
+        $(".segundo").hide();
+        $(".terceiro").hide();
+      });
+    });
+    }); // fim do click
+    $(document).ready( function(){
+      $("#btnDadosC").click(function(){
+        $(".priemiro").hide();
+        $(".segundo").show('', function(){
+        $(".terceiro").hide();
+      });
+    });
+    }); // fim do click
+    $(document).ready( function(){
+      $("#btnDadosA").click(function(){
+        $(".primeiro").hide();
+        $(".segundo").hide();
+        $(".terceiro").show('', function(){
+      });
+    });
+    }); // fim do click
+
+
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <h2> Introdução ao jQuery</h2>
+
+    <p class="primeiro">Taissa Bianca de Souza Pereira </p>
+      <p class="segundo"> 665544 </p>
+       <p class="terceiro">IFPR</p>
+
+      <button type="button" class="btn btn-primary" id="btnDadosP">
+        Dados Pessoais
+      </button>
+
+
+      <button type="button" class="btn btn-primary" id="btnDadosC">
+        Dados de Contato
+      </button>
+
+      <button type="button" class="btn btn-primary" id="btnDadosA">
+        Dados Academicos
+      </button>
+
+      <hr>
+      <h2>Exemplo com abas</h2>
+
+
+
+    </div>
+
+  </body>
+  </html>

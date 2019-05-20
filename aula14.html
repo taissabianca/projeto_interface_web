@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!-- importação do css bootstrap -->
+  <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+
+  <!-- importação dp jQuery -->
+  <script src= "jquery-3.4.1.js"></script>
+  <!--  utilização do JavaScript-->
+  <script>
+    $(document).ready( function(){
+      $("#btnEsconder").click(function(){
+
+        $("p").hide();
+
+      }); // fim do click
+
+      $("#btnAparecer").click(function(){
+
+        $("p").show();
+
+      }); // fim do click
+
+      $("#btnEsconderPrimeiro").click(function(){
+
+        $(".primeiro").hide();
+          }); // fim do click
+
+    }); // fiim do ready
+
+
+
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    <h2> Introdução ao jQuery</h2>
+
+    <p class="primeiro">Taissa Bianca de Souza Pereira </p>
+      <p>Novidade</p>
+       <p>Agora</p>
+
+      <button type="button" class="btn btn-primary" id="btnEsconder">
+        Esconder
+      </button>
+
+
+      <button type="button" class="btn btn-primary" id="btnAparecer">
+        Aparecer
+      </button>
+
+      <button type="button" class="btn btn-primary" id="btnEsconderPrimeiro">
+        Esconder Primeiro
+      </button>
+
+      <hr>
+      <h2>Exemplo com abas</h2>
+
+
+
+    </div>
+
+  </body>
+  </html>
